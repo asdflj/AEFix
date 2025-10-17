@@ -41,6 +41,13 @@ public abstract class MixinItemList implements IItemList<IAEItemStack> {
         ci.cancel();
     }
 
+    @Inject(method = "clear", at = @At("HEAD"), remap = false)
+    public void clear(CallbackInfo ci) {
+        if (this.treeRecords != null) {
+            this.treeRecords.clear();
+        }
+    }
+
     @Inject(method = "findFuzzyDamage", at = @At("HEAD"), remap = false, cancellable = true)
     private void findFuzzyDamage(AEItemStack filter, FuzzyMode fuzzy, boolean ignoreMeta,
         CallbackInfoReturnable<Collection<IAEItemStack>> cir) {
