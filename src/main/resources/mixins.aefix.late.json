@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0",
+  "package": "com.asdflj.aefix.mixins",
+  "refmap": "mixins.aefix.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "server": [
+
+  ]
+}
