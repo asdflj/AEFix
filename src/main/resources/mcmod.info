@@ -6,7 +6,7 @@
 		"description": "ae fix",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "",
+		"url": "https://github.com/asdflj/AEFix",
 		"updateUrl": "",
 		"authorList": ["asdflj"],
 		"credits": "",
