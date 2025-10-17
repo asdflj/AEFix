@@ -79,7 +79,9 @@ public abstract class MixinItemList implements IItemList<IAEItemStack> {
             @Override
             public void remove() {
                 i.remove();
-                setRecords.remove(next);
+                if (treeRecords != null) {
+                    treeRecords.remove(next);
+                }
             }
         }));
     }
