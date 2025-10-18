@@ -23,6 +23,8 @@ public class AE2LatePlugin implements ILateMixinLoader {
             mixins.add("ae.MixinItemList");
             mixins.add("ae.MixinCraftingContext");
         }
+        mixins.add("ae.MixinContainerInterfaceTerminal");
+        mixins.add("ae.MixinContainerCraftConfirm");
         return mixins;
     }
 
