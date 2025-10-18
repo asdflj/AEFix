@@ -11,7 +11,8 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
     modid = AEFix.MODID,
     version = Tags.VERSION,
     name = AEFix.NAME,
-    dependencies = "required-after:appliedenergistics2;")
+    dependencies = "required-after:appliedenergistics2;",
+    acceptableRemoteVersions = "*")
 public class AEFix {
 
     public static final String MODID = "aefix";
