@@ -35,7 +35,11 @@
  */
 dependencies {
     //runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.7.69-GTNH:dev")
-    api('com.github.GTNewHorizons:Applied-Energistics-2-Unofficial:rv3-beta-669-GTNH:dev')
-    api('com.github.GTNewHorizons:NotEnoughItems:2.7.81-GTNH:dev')
+    api('com.github.GTNewHorizons:Applied-Energistics-2-Unofficial:rv3-beta-695-GTNH:dev')
+    api('com.github.GTNewHorizons:NotEnoughItems:2.8.44-GTNH:dev')
+    api('com.github.GTNewHorizons:AE2FluidCraft-Rework:1.4.120-gtnh:dev') {
+        exclude group: 'com.github.GTNewHorizons', module: 'Applied-Energistics-2-Unofficial'
+    }
     compile('com.github.GTNewHorizons:Baubles-Expanded:2.1.13-GTNH:dev')
+
 }
