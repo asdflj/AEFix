@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import com.asdflj.aefix.Util;
 import com.gtnewhorizon.gtnhmixins.ILateMixinLoader;
 import com.gtnewhorizon.gtnhmixins.LateMixin;
 
@@ -24,7 +25,8 @@ public class AE2LatePlugin implements ILateMixinLoader {
             mixins.add("ae.MixinCraftingContext");
         }
         mixins.add("ae.MixinContainerInterfaceTerminal");
-        mixins.add("ae.MixinContainerCraftConfirm");
+        mixins.add("fc.MixinSPacketMEFluidInvUpdate");
+        mixins.add("fc.MixinSPacketMEItemInvUpdate");
         return mixins;
     }
 
