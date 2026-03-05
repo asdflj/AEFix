@@ -1,4 +1,4 @@
-# 这是一个 gtnh ae合成卡顿优化mod
+# 这是一个 gtnh ae卡顿优化mod
 
 
 ## Downloads & Requirements
