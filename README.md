@@ -1,6 +1,5 @@
 # 这是一个 gtnh ae合成卡顿优化mod
 
-## gtnh 280及以下版本适用
 
 ## Downloads & Requirements
 | GTNH  | AEFix | 下载                                                                                                                 | 维护中 |
